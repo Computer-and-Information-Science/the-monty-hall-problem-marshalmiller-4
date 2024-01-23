@@ -7,12 +7,12 @@ using namespace std;
 bool monty(char strategy) {
   int car = rand() %3;
   int pick = rand() %3;
-  if (strategy == 'r') 
+  if (strategy == 'r') {
     if (rand() %2==0)
       strategy = 'k';
     else 
       strategy = 's';
-}
+  }
 switch (strategy){
   case 'k':
   if (pick==car)
@@ -22,13 +22,13 @@ switch (strategy){
   if (pick!=car)
     return true;
 }
-return false;
+  return false;
 }
 
-}
+
 int monty(char strategy, int n_times) {
 int count=0;
-  for (int i=0; i < time; i++) {
+  for (int i=0; i < n_times; i++) {
     if (monty(strategy))
       count++;
   }
