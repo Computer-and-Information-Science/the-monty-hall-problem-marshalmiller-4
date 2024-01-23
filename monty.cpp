@@ -28,7 +28,7 @@ return false;
 }
 int monty(char strategy, int time) {
 int count=0;
-  for int i=0; i < time; i++) {
+  for (int i=0; i < time; i++) {
     if (monty(strategy))
       count++;
   }
