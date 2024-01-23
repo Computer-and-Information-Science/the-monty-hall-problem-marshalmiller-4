@@ -1,7 +1,7 @@
 #include "monty.h"
 #include <iostream>
 #include <cstdlib>
-#incldue <ctime>
+#include <ctime>
 using namespace std;
 
 bool monty(char strategy) {
@@ -15,7 +15,7 @@ bool monty(char strategy) {
 }
 switch (strategy){
   case 'k':
-  if (pick!=car)
+  if (pick==car)
     return true;
   break;
   case 's':
@@ -28,7 +28,7 @@ return false;
 }
 int monty(char strategy, int time) {
 int count=0;
-  for int =0; i < time; i++) {
+  for int i=0; i < time; i++) {
     if (monty(strategy))
       count++;
   }
