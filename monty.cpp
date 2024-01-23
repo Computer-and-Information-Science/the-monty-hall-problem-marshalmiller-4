@@ -26,7 +26,7 @@ return false;
 }
 
 }
-int monty(char strategy, int time) {
+int monty(char strategy, int n_times) {
 int count=0;
   for (int i=0; i < time; i++) {
     if (monty(strategy))
