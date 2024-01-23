@@ -8,11 +8,10 @@
 //  probabilities.
 
 // TODO: Remove the following two lines to test your functions
-bool monty(char) { return false; }
-int monty(char, int) { return 0; }
+
 
 // TODO: Include your module header file
-//#include "monty.h"
+#include "monty.h"
 
 #include <iostream>
 #include <cstdlib>
