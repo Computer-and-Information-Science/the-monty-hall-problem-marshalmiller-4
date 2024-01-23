@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ main.cpp monty.cpp",
+      "run": "./a.out",
+      "input": "3",
+      "output": "within the expected range.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
